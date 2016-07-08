@@ -1,0 +1,1078 @@
+﻿[
+  {
+    "id": 3,
+    "Name": "Email"
+  },
+  {
+    "id": 5,
+    "Name": "Facebook Insights – Pages"
+  },
+  {
+    "id": 6,
+    "Name": "Facebook Public - Pages"
+  },
+  {
+    "id": 8,
+    "Name": "Facebook Public – Advanced"
+  },
+  {
+    "id": 9,
+    "Name": "YouTube Public - Videos"
+  },
+  {
+    "id": 10,
+    "Name": "YouTube Public - Channels"
+  },
+  {
+    "id": 11,
+    "Name": "YouTube Insights – Video Views - DEPRECATED "
+  },
+  {
+    "id": 12,
+    "Name": "YouTube Insights – Channel Views - DEPRECATED "
+  },
+  {
+    "id": 13,
+    "Name": "Twitter Public – Handles"
+  },
+  {
+    "id": 14,
+    "Name": "Google Analytics – Basic"
+  },
+  {
+    "id": 15,
+    "Name": "Adobe Analytics – Over Time"
+  },
+  {
+    "id": 16,
+    "Name": "FTP"
+  },
+  {
+    "id": 17,
+    "Name": "Webtrends - Basic"
+  },
+  {
+    "id": 19,
+    "Name": "MediaFlow"
+  },
+  {
+    "id": 21,
+    "Name": "Sizmek API - Campaign Report - DEPRECATED"
+  },
+  {
+    "id": 24,
+    "Name": "DoubleClick API – Standard Report"
+  },
+  {
+    "id": 25,
+    "Name": "MiaoZhen AdMonitor Daily"
+  },
+  {
+    "id": 28,
+    "Name": "Prisma – Campaign Report - DEPRECATED"
+  },
+  {
+    "id": 32,
+    "Name": "Symphony - Campaign Online Cost Report"
+  },
+  {
+    "id": 33,
+    "Name": "MediaTools"
+  },
+  {
+    "id": 35,
+    "Name": "Google Analytics – Advanced"
+  },
+  {
+    "id": 36,
+    "Name": "Webtrends - Advanced"
+  },
+  {
+    "id": 37,
+    "Name": "YouTube Insights – Video Locations - DEPRECATED "
+  },
+  {
+    "id": 38,
+    "Name": "YouTube Insights – Channel Locations - DEPRECATED "
+  },
+  {
+    "id": 39,
+    "Name": "YouTube Insights – Video Referrers - DEPRECATED "
+  },
+  {
+    "id": 40,
+    "Name": "YouTube Insights – Channel Referrers - DEPRECATED "
+  },
+  {
+    "id": 41,
+    "Name": "YouTube Insights – Video Demographics - DEPRECATED "
+  },
+  {
+    "id": 42,
+    "Name": "YouTube Insights – Channel Demographics - DEPRECATED "
+  },
+  {
+    "id": 48,
+    "Name": "Brandwatch Report"
+  },
+  {
+    "id": 50,
+    "Name": "Marin Keyword Report"
+  },
+  {
+    "id": 51,
+    "Name": "Google AdWords – Keywords Performance Report"
+  },
+  {
+    "id": 55,
+    "Name": "Wunderground Weather Forecast"
+  },
+  {
+    "id": 58,
+    "Name": "Google AdWords – Keywords Metadata"
+  },
+  {
+    "id": 60,
+    "Name": "Kenshoo Custom Report Download"
+  },
+  {
+    "id": 63,
+    "Name": "Prisma – Custom Columns Report - DEPRECATED"
+  },
+  {
+    "id": 65,
+    "Name": "CORE Buy Report [Weekly Overview]"
+  },
+  {
+    "id": 66,
+    "Name": "Stock Prices"
+  },
+  {
+    "id": 67,
+    "Name": "Exchange Rates"
+  },
+  {
+    "id": 69,
+    "Name": "Facebook Insights – Page Demographic"
+  },
+  {
+    "id": 71,
+    "Name": "Atlas WebMedia"
+  },
+  {
+    "id": 82,
+    "Name": "Facebook Insights – Page Languages"
+  },
+  {
+    "id": 83,
+    "Name": "Facebook Insights – Page Locations"
+  },
+  {
+    "id": 86,
+    "Name": "Baidu Paid Search Performance"
+  },
+  {
+    "id": 102,
+    "Name": "social.com Campaign Report"
+  },
+  {
+    "id": 104,
+    "Name": "Sizmek API - Campaign Metadata - DEPRECATED"
+  },
+  {
+    "id": 105,
+    "Name": "Sizmek API - Placement Metadata - DEPRECATED"
+  },
+  {
+    "id": 106,
+    "Name": "Sizmek API - Ad Metadata - DEPRECATED"
+  },
+  {
+    "id": 107,
+    "Name": "Sizmek API - Advertiser Metadata - DEPRECATED"
+  },
+  {
+    "id": 108,
+    "Name": "Sizmek API - Conversion Report - DEPRECATED"
+  },
+  {
+    "id": 109,
+    "Name": "Sizmek API - Tag Metadata - DEPRECATED"
+  },
+  {
+    "id": 113,
+    "Name": "Videology"
+  },
+  {
+    "id": 119,
+    "Name": "Lego"
+  },
+  {
+    "id": 130,
+    "Name": "DoubleClick API – Reach Report"
+  },
+  {
+    "id": 131,
+    "Name": "DoubleClick API – Floodlight Report"
+  },
+  {
+    "id": 133,
+    "Name": "DoubleClick API – Path To Conversion Report"
+  },
+  {
+    "id": 143,
+    "Name": "social.com Conversion Report"
+  },
+  {
+    "id": 144,
+    "Name": "social.com Campaign Metadata"
+  },
+  {
+    "id": 145,
+    "Name": "social.com Ad Metadata"
+  },
+  {
+    "id": 146,
+    "Name": "Brandwatch Mentions"
+  },
+  {
+    "id": 147,
+    "Name": "Sizmek Extract - Campaign Report"
+  },
+  {
+    "id": 148,
+    "Name": "Sizmek Extract - Conversion Report"
+  },
+  {
+    "id": 149,
+    "Name": "Sizmek Extract - Unique Report"
+  },
+  {
+    "id": 151,
+    "Name": "MiaoZhen AdMonitor Accumulated"
+  },
+  {
+    "id": 160,
+    "Name": "Facebook Public - Posts"
+  },
+  {
+    "id": 165,
+    "Name": "DoubleClick Extract – Campaign Report"
+  },
+  {
+    "id": 170,
+    "Name": "Atlas Internal Publisher"
+  },
+  {
+    "id": 171,
+    "Name": "Atlas Impression Exchange"
+  },
+  {
+    "id": 172,
+    "Name": "Sizmek Extract - Ad Metadata"
+  },
+  {
+    "id": 173,
+    "Name": "Sizmek Extract - Placement Metadata"
+  },
+  {
+    "id": 176,
+    "Name": "DoubleClick Extract – Conversion Report"
+  },
+  {
+    "id": 177,
+    "Name": "DoubleClick Extract – Rich Media Report"
+  },
+  {
+    "id": 178,
+    "Name": "DoubleClick Extract – Ad Metadata"
+  },
+  {
+    "id": 179,
+    "Name": "DoubleClick Extract – Placement Metadata"
+  },
+  {
+    "id": 180,
+    "Name": "DoubleClick Extract – Creative Metadata"
+  },
+  {
+    "id": 183,
+    "Name": "Sizmek Extract - Video Report"
+  },
+  {
+    "id": 184,
+    "Name": "Sizmek Extract - Expandable Report"
+  },
+  {
+    "id": 185,
+    "Name": "Sizmek Extract - Custom Interaction Report"
+  },
+  {
+    "id": 186,
+    "Name": "Sizmek Extract - Conversion  Metadata"
+  },
+  {
+    "id": 188,
+    "Name": "WikiStats"
+  },
+  {
+    "id": 190,
+    "Name": "TRUSTe"
+  },
+  {
+    "id": 192,
+    "Name": "DoubleClick API – Custom report download"
+  },
+  {
+    "id": 193,
+    "Name": "Vindico"
+  },
+  {
+    "id": 197,
+    "Name": "TURN - Delivery Report"
+  },
+  {
+    "id": 200,
+    "Name": "Facebook Insights – Posts"
+  },
+  {
+    "id": 201,
+    "Name": "Datasift – Twitter Tweets"
+  },
+  {
+    "id": 203,
+    "Name": "Competitive LTAM DB"
+  },
+  {
+    "id": 204,
+    "Name": "Marin Creative Report"
+  },
+  {
+    "id": 205,
+    "Name": "Marin Placement Report"
+  },
+  {
+    "id": 206,
+    "Name": "Marin Keyword Metadata"
+  },
+  {
+    "id": 207,
+    "Name": "Marin Creative Metadata"
+  },
+  {
+    "id": 208,
+    "Name": "Marin Placement Metadata"
+  },
+  {
+    "id": 209,
+    "Name": "Marin Conversion Metadata"
+  },
+  {
+    "id": 210,
+    "Name": "LEGO Product Metadata"
+  },
+  {
+    "id": 216,
+    "Name": "Datamart Query - Basic"
+  },
+  {
+    "id": 217,
+    "Name": "Marin Groups Metadata"
+  },
+  {
+    "id": 218,
+    "Name": "Marin Keyword Conversion Report"
+  },
+  {
+    "id": 219,
+    "Name": "Marin Creative Conversion Report"
+  },
+  {
+    "id": 220,
+    "Name": "Marin Placement Conversion Report"
+  },
+  {
+    "id": 224,
+    "Name": "Twitter Ads Campaign Delivery Report - DEPRECATED"
+  },
+  {
+    "id": 226,
+    "Name": "Competitive Targeting LTAM DB"
+  },
+  {
+    "id": 227,
+    "Name": "TURN - Action Report"
+  },
+  {
+    "id": 228,
+    "Name": "Planning Data Store"
+  },
+  {
+    "id": 230,
+    "Name": "Visible Technologies - Trends"
+  },
+  {
+    "id": 231,
+    "Name": "Visible Technologies - Geographies"
+  },
+  {
+    "id": 232,
+    "Name": "Visible Technologies - Media Type"
+  },
+  {
+    "id": 233,
+    "Name": "Visible Technologies - Site List"
+  },
+  {
+    "id": 234,
+    "Name": "Visible Technologies - Author List"
+  },
+  {
+    "id": 235,
+    "Name": "Visible Technologies - Term List"
+  },
+  {
+    "id": 238,
+    "Name": "NOAA Weather History"
+  },
+  {
+    "id": 239,
+    "Name": "Amazon S3"
+  },
+  {
+    "id": 240,
+    "Name": "Celtra – Merged Data Report"
+  },
+  {
+    "id": 241,
+    "Name": "Gemius Campaign Metadata"
+  },
+  {
+    "id": 243,
+    "Name": "DoubleVerify – Merged Data Report"
+  },
+  {
+    "id": 250,
+    "Name": "Marin Target Settings Report"
+  },
+  {
+    "id": 251,
+    "Name": "Marin Target Settings Conversion Report"
+  },
+  {
+    "id": 252,
+    "Name": "Google AdWords – Keywords Conversion Report"
+  },
+  {
+    "id": 253,
+    "Name": "Marin Target Settings Metadata"
+  },
+  {
+    "id": 254,
+    "Name": "Adobe Analytics – Trended"
+  },
+  {
+    "id": 255,
+    "Name": "Adobe Analytics – Ranked"
+  },
+  {
+    "id": 256,
+    "Name": "Twitter Public – Tweets (Sample)"
+  },
+  {
+    "id": 259,
+    "Name": "TURN - Configuration Report"
+  },
+  {
+    "id": 260,
+    "Name": "Gemius Placement Metadata"
+  },
+  {
+    "id": 261,
+    "Name": "Gemius - Campaign Delivery Report"
+  },
+  {
+    "id": 263,
+    "Name": "Gemius Creative Metadata"
+  },
+  {
+    "id": 265,
+    "Name": "Facebook Ads – Campaign Metadata"
+  },
+  {
+    "id": 266,
+    "Name": "Facebook Ads – Ad Group Metadata"
+  },
+  {
+    "id": 267,
+    "Name": "Symphony – OnlineCostPeriod"
+  },
+  {
+    "id": 268,
+    "Name": "Facebook Ads – Campaign Report"
+  },
+  {
+    "id": 269,
+    "Name": "Facebook Ads – Conversion Report"
+  },
+  {
+    "id": 271,
+    "Name": "Symphony – UserClassification"
+  },
+  {
+    "id": 272,
+    "Name": "Trade Desk Campaign Metadata"
+  },
+  {
+    "id": 273,
+    "Name": "Trade Desk Ad Group Metadata"
+  },
+  {
+    "id": 275,
+    "Name": "Social Code"
+  },
+  {
+    "id": 276,
+    "Name": "Trade Desk Creative Metadata"
+  },
+  {
+    "id": 277,
+    "Name": "Trade Desk Creative Delivery Report"
+  },
+  {
+    "id": 278,
+    "Name": "Trade Desk Geo Delivery Report"
+  },
+  {
+    "id": 279,
+    "Name": "Trade Desk Site Delivery Report"
+  },
+  {
+    "id": 280,
+    "Name": "Trade Desk Site List Delivery Report"
+  },
+  {
+    "id": 281,
+    "Name": "Trade Desk Conversion Event Details Report"
+  },
+  {
+    "id": 283,
+    "Name": "Datamart Query - Advanced"
+  },
+  {
+    "id": 284,
+    "Name": "Nielsen OCR Placement Exposure - DEPRECATED"
+  },
+  {
+    "id": 285,
+    "Name": "Nielsen OCR Restated Placement Exposure - DEPRECATED"
+  },
+  {
+    "id": 286,
+    "Name": "MediaTools Extract"
+  },
+  {
+    "id": 287,
+    "Name": "DoubleVerify – Brand Assure Report"
+  },
+  {
+    "id": 293,
+    "Name": "Moat Display"
+  },
+  {
+    "id": 298,
+    "Name": "Medialets Ad Metadata"
+  },
+  {
+    "id": 300,
+    "Name": "Mediaocean - PrintPak"
+  },
+  {
+    "id": 301,
+    "Name": "Mediaocean - SpotPak"
+  },
+  {
+    "id": 302,
+    "Name": "Mediaocean - NetPak"
+  },
+  {
+    "id": 314,
+    "Name": "Trade Desk Creative Conversion Report"
+  },
+  {
+    "id": 315,
+    "Name": "Trade Desk Geo Conversion Report"
+  },
+  {
+    "id": 316,
+    "Name": "Trade Desk Site Conversion Report"
+  },
+  {
+    "id": 317,
+    "Name": "Trade Desk Site List Conversion Report"
+  },
+  {
+    "id": 321,
+    "Name": "Google AdWords – Ad Metadata"
+  },
+  {
+    "id": 322,
+    "Name": "Google AdWords Advanced"
+  },
+  {
+    "id": 324,
+    "Name": "Twitter Ads Campaign Metadata"
+  },
+  {
+    "id": 325,
+    "Name": "Twitter Ads Payment Source Metadata"
+  },
+  {
+    "id": 328,
+    "Name": "Twitter Ads Targeting Criteria Metadata"
+  },
+  {
+    "id": 329,
+    "Name": "Twitter Ads Line Item Metadata"
+  },
+  {
+    "id": 330,
+    "Name": "CORE Buy Report [Daily Overview]"
+  },
+  {
+    "id": 331,
+    "Name": "CORE Response Configuration Metadata"
+  },
+  {
+    "id": 332,
+    "Name": "CORE Spot Delivery Report"
+  },
+  {
+    "id": 333,
+    "Name": "CORE Response Event Report"
+  },
+  {
+    "id": 335,
+    "Name": "Medialets Daily Ad Performance"
+  },
+  {
+    "id": 339,
+    "Name": "AdSafe - Pixel"
+  },
+  {
+    "id": 340,
+    "Name": "Evidon - Delivery Report"
+  },
+  {
+    "id": 341,
+    "Name": "Celtra - Billing Report"
+  },
+  {
+    "id": 342,
+    "Name": "Celtra – Merged Summary Report"
+  },
+  {
+    "id": 345,
+    "Name": "DoubleClick Extract - Path To Conversion Report"
+  },
+  {
+    "id": 346,
+    "Name": "Medialets Daily Attribution"
+  },
+  {
+    "id": 350,
+    "Name": "YouTube - Embedded Player Referrer Report"
+  },
+  {
+    "id": 354,
+    "Name": "YouTube - Shares Report"
+  },
+  {
+    "id": 359,
+    "Name": "AppNexus Insertion Order Metadata"
+  },
+  {
+    "id": 360,
+    "Name": "AppNexus Line Item Metadata"
+  },
+  {
+    "id": 361,
+    "Name": "AppNexus Campaign Metadata"
+  },
+  {
+    "id": 362,
+    "Name": "AppNexus Creative Metadata"
+  },
+  {
+    "id": 363,
+    "Name": "AppNexus Pixel Metadata"
+  },
+  {
+    "id": 364,
+    "Name": "Google AdWords – Keyword Impression Share Report"
+  },
+  {
+    "id": 365,
+    "Name": "AppNexus Delivery Report"
+  },
+  {
+    "id": 366,
+    "Name": "AppNexus Conversion Report"
+  },
+  {
+    "id": 367,
+    "Name": "AppNexus Geo Report"
+  },
+  {
+    "id": 368,
+    "Name": "AppNexus Site Report"
+  },
+  {
+    "id": 369,
+    "Name": "Prisma - Delivery Reconciliation - DEPRECATED"
+  },
+  {
+    "id": 373,
+    "Name": "Google AdWords – Paid and Organic Report"
+  },
+  {
+    "id": 374,
+    "Name": "Prisma - Costs - DEPRECATED"
+  },
+  {
+    "id": 375,
+    "Name": "Facebook Ads – Ad Manager Report"
+  },
+  {
+    "id": 378,
+    "Name": "Google AdWords – Ad Performance Report"
+  },
+  {
+    "id": 379,
+    "Name": "Radia Campaigns"
+  },
+  {
+    "id": 380,
+    "Name": "AdSafe - Firewall"
+  },
+  {
+    "id": 381,
+    "Name": "Sales Force North America"
+  },
+  {
+    "id": 383,
+    "Name": "Undertone"
+  },
+  {
+    "id": 384,
+    "Name": "Xaxis Reach & Frequency"
+  },
+  {
+    "id": 385,
+    "Name": "Xaxis Temporal Effects (By Day, Week, Hour)"
+  },
+  {
+    "id": 386,
+    "Name": "Xaxis Optimal Frequency"
+  },
+  {
+    "id": 387,
+    "Name": "Xaxis Overlap by Site"
+  },
+  {
+    "id": 389,
+    "Name": "Google AdWords – Ad Criteria Report"
+  },
+  {
+    "id": 390,
+    "Name": "Unified – Facebook Ads"
+  },
+  {
+    "id": 391,
+    "Name": "Nielsen OCR Viewability"
+  },
+  {
+    "id": 392,
+    "Name": "Nielsen OCR Reach Profile"
+  },
+  {
+    "id": 394,
+    "Name": "Nielsen OCR Viewability – Restatement"
+  },
+  {
+    "id": 395,
+    "Name": "Nielsen OCR Reach Profile – Restatement"
+  },
+  {
+    "id": 396,
+    "Name": "Moat Video"
+  },
+  {
+    "id": 398,
+    "Name": "Xaxis - Nielsen OCR Daily Audience Profile"
+  },
+  {
+    "id": 400,
+    "Name": "Xaxis - Nielsen OCR Viewability"
+  },
+  {
+    "id": 404,
+    "Name": "Competitive LTAM SSC DB"
+  },
+  {
+    "id": 405,
+    "Name": "Symphony - Campaign Performance Report"
+  },
+  {
+    "id": 406,
+    "Name": "Symphony - Campaign Details"
+  },
+  {
+    "id": 407,
+    "Name": "Symphony - Placement Details"
+  },
+  {
+    "id": 409,
+    "Name": "Google Analytics – Profile Metadata"
+  },
+  {
+    "id": 411,
+    "Name": "Nielsen OCR Daily Audience Profile"
+  },
+  {
+    "id": 412,
+    "Name": "Nielsen OCR Daily Audience Profile - Restatement"
+  },
+  {
+    "id": 451,
+    "Name": "YouTube Analytics – Views Report"
+  },
+  {
+    "id": 452,
+    "Name": "YouTube Analytics - Playback Locations Report"
+  },
+  {
+    "id": 453,
+    "Name": "YouTube Analytics – Traffic Sources Report"
+  },
+  {
+    "id": 455,
+    "Name": "YouTube Analytics – Demographics Report"
+  },
+  {
+    "id": 460,
+    "Name": "Prisma - Product Metadata"
+  },
+  {
+    "id": 463,
+    "Name": "Prisma - Campaign Details"
+  },
+  {
+    "id": 464,
+    "Name": "Prisma - Buy Order Details"
+  },
+  {
+    "id": 465,
+    "Name": "Prisma - Placement Details"
+  },
+  {
+    "id": 466,
+    "Name": "Prisma - Advanced Placement Details"
+  },
+  {
+    "id": 467,
+    "Name": "Prisma - Placements Monthly Delivery"
+  },
+  {
+    "id": 468,
+    "Name": "Prisma - Placements Daily Delivery"
+  },
+  {
+    "id": 470,
+    "Name": "Marin Campaign Dimension Metadata"
+  },
+  {
+    "id": 471,
+    "Name": "Marin Keyword Dimension Metadata"
+  },
+  {
+    "id": 472,
+    "Name": "Marin Creative Dimension Metadata"
+  },
+  {
+    "id": 473,
+    "Name": "Marin Groups Dimension Metadata"
+  },
+  {
+    "id": 474,
+    "Name": "Marin Placement Dimension Metadata"
+  },
+  {
+    "id": 475,
+    "Name": "Marin Target Setting Dimension Metadata"
+  },
+  {
+    "id": 476,
+    "Name": "Marin Publisher Dimension Metadata"
+  },
+  {
+    "id": 480,
+    "Name": "Mediaocean PrintPak Canada"
+  },
+  {
+    "id": 481,
+    "Name": "Mediaocean SpotPak Canada"
+  },
+  {
+    "id": 482,
+    "Name": "YouTube Analytics – Traffic Sources Details Report"
+  },
+  {
+    "id": 486,
+    "Name": "DoubleVerify - Billable Report"
+  },
+  {
+    "id": 488,
+    "Name": "Radia Advanced Placement Details"
+  },
+  {
+    "id": 489,
+    "Name": "Radia Buy Orders"
+  },
+  {
+    "id": 490,
+    "Name": "Radia Buy Order Status"
+  },
+  {
+    "id": 491,
+    "Name": "Radia Invoices"
+  },
+  {
+    "id": 492,
+    "Name": "Radia Placement Details"
+  },
+  {
+    "id": 493,
+    "Name": "Radia Placements Daily Delivery"
+  },
+  {
+    "id": 494,
+    "Name": "Radia Placements Monthly Delivery"
+  },
+  {
+    "id": 497,
+    "Name": "Facebook Insights Fixed Structure"
+  },
+  {
+    "id": 498,
+    "Name": "Brandwatch Mentions Downloader"
+  },
+  {
+    "id": 505,
+    "Name": "Facebook Insights Reports"
+  },
+  {
+    "id": 506,
+    "Name": "Bing Ads – Daily Keyword Performance"
+  },
+  {
+    "id": 517,
+    "Name": "Facebook Ads - Custom Reporting"
+  },
+  {
+    "id": 529,
+    "Name": "Mediaocean - PrintPak Comments"
+  },
+  {
+    "id": 530,
+    "Name": "Wikimedia"
+  },
+  {
+    "id": 534,
+    "Name": "Twitter Ads Campaign Performance Report"
+  },
+  {
+    "id": 998,
+    "Name": "Dummy Event Level"
+  },
+  {
+    "id": 999,
+    "Name": "Dummy Event Level"
+  },
+  {
+    "id": 10000,
+    "Name": "Facebook Insights – Group"
+  },
+  {
+    "id": 10001,
+    "Name": "Sizmek Extract Group"
+  },
+  {
+    "id": 10002,
+    "Name": "DoubleClick Extract - Group"
+  },
+  {
+    "id": 10003,
+    "Name": "Marin Extract - Group - DEPRECATED"
+  },
+  {
+    "id": 10004,
+    "Name": "DoubleClick Database Transfer"
+  },
+  {
+    "id": 10005,
+    "Name": "Sizmek Database Transfer"
+  },
+  {
+    "id": 10008,
+    "Name": "Marin Extract – Creative Group"
+  },
+  {
+    "id": 10009,
+    "Name": "Marin Extract – Marin Groups"
+  },
+  {
+    "id": 10010,
+    "Name": "Marin Extract – Keyword Group"
+  },
+  {
+    "id": 10011,
+    "Name": "Marin Extract – Target Settings Group"
+  },
+  {
+    "id": 20000,
+    "Name": "DoubleClick – Event Level"
+  },
+  {
+    "id": 20001,
+    "Name": "DoubleClick – Event Level"
+  },
+  {
+    "id": 20002,
+    "Name": "Dummy Event Level"
+  },
+  {
+    "id": 20010,
+    "Name": "Sizmek – Event Level"
+  },
+  {
+    "id": 20011,
+    "Name": "Sizmek - Event Level"
+  },
+  {
+    "id": 20030,
+    "Name": "Medialets Attribution Transaction"
+  },
+  {
+    "id": 20031,
+    "Name": "Medialets - Event Level"
+  },
+  {
+    "id": 20090,
+    "Name": "Flashtalking - Event Level"
+  },
+  {
+    "id": 30000,
+    "Name": "North America Data Access"
+  }
+]

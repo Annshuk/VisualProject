@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+*, :before, :after{ box-sizing:border-box}
+body{ font:11px/15px Arial, Helvetica, sans-serif}
+.wrapper h2{ font-size:18px; line-height:25px; padding-bottom:10px; display:block; color:#267DE8; text-shadow:0px 1px 1px #204488}
+
+.wrapper{ text-align:left; position:relative; width:90%; margin:0 auto;}
+.search-wrap{ width:100%; background:#CACACA; padding:10px 5px;}
+/*--button format-------------*/
+.buttons{ border:0; text-align:center; border-radius:5px; -webkit-border-radius:5px; cursor:pointer; font-family: Arial; color: #ffffff; font-size:15px; padding: 5px 10px;
+  text-decoration: none;}
+.blue-skin{
+	background: #3498db;
+  	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	}
+.blue-skin:hover{ background-color:#039EFC;}
+.green-skin{
+	background: #50AB18;
+  	background-image: -webkit-linear-gradient(top, #50AB18, #60A025);
+  	background-image: -moz-linear-gradient(top, #50AB18, #60A025);
+  	background-image: -ms-linear-gradient(top, #50AB18, #60A025);
+  	background-image: -o-linear-gradient(top, #50AB18, #60A025);
+  	background-image: linear-gradient(to bottom, #50AB18, #60A025);
+	}
+
+.orange-skin{
+	background: #C6860F;
+  	background-image: -webkit-linear-gradient(top, #C6860F, #E1A72D);
+  	background-image: -moz-linear-gradient(top, #C6860F, #E1A72D);
+  	background-image: -ms-linear-gradient(top, #C6860F, #E1A72D);
+  	background-image: -o-linear-gradient(top, #C6860F, #E1A72D);
+  	background-image: linear-gradient(to bottom, #C6860F, #E1A72D);
+	}
+
+table thead th, table tbody td{ padding:5px; border:1px #F3F3F3 solid}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+.container .text-muted {  margin: 20px 0;}
+.footer > .container {  padding-right: 15px;  padding-left: 15px;}

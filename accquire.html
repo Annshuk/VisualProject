@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="myApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DataMart</title>
+<link href="styles/reset.css" rel="stylesheet" media="screen" />
+<link href="styles/dm-style.css" rel="stylesheet" media="screen" />
+</head>
+<body>
+<div id="dm-wrapper">
+		
+       <div class="navigation">
+       	<header>
+        <h2 class="logo-title">Datamart</h2>
+       	<nav class="top-level">        
+        <ul class="nav-top">        	
+        		<li><a href="">Home</a></li>
+        		<li><a href="" class="arrow-down">welcome <span>Kishor D</span></a>
+                <menu class="pop-menu">
+                	<ul><li><a href="">Log Out</a></li>
+                    </ul>
+                </menu>
+                </li>
+                <li><a href="">Contact us</a></li>      
+        </ul>
+        </nav>
+        
+       <nav  class="nav-menu">
+        <ul class="nav-top">        	
+        		<li><a href="">Home</a></li>
+        		<li><a href="" class="arrow-down">welcome</a></li>
+                <li><a href="">Contact us</a></li>      
+        </ul>
+        </nav>
+       </header>
+       </div>
+
+
+  <div class="wrapper"> 
+    <div class="contentContainer" data-name="contentContainer">
+      <div class="header-top" data-name="TopHeader">
+        <div class="notes">
+          <h3>Custom Package</h3>
+          <span class="caption">This Page allows Datamart Administrator to create, manage, delete and monitor</span> </div>
+        <div class="breadcrumbs-nav"> <a href="#">Home</a> <a href="#">Custom Package</a> </div>
+        <div class="figureInfo">
+          <div class="rowContent">
+            <div class="figure"> <img src="images/figure.jpg" alt="" /> <span class="fig-title">Title Goes Here</span> <a class="fig-subTitle" href="">Tell me More</a></div>
+            <ul class="feedsBlock">
+              <li>
+                <h2>Packeage Source Name</h2>
+              </li>
+              <li>
+                <dl>
+                  <dd>Package ID :</dd>
+                  <dt> 143 </dt>
+                  <dd>Package ID :</dd>
+                  <dt> 143 </dt>
+                </dl>
+              </li>
+              <li>
+                <p>Description</p>
+              </li>
+            </ul>
+            <span class="clear"></span> </div>
+          <div class="clear"></div>
+        </div>
+        <!--Figure-content-->
+        <div class="tabwrapper">
+          <ul class="tabContent">
+            <li class="has-active"> <a href="#">Manage Analysis</a></li>
+            <li>
+            <div class="stepsHolder">
+            <p class="steps"><a href="#">Steps</a></p>
+            <ul class="sub-wizard">
+            <li class="no1"><a href="#">Analysis</a></li>
+            <li class="no2"><a href="#">Analysis</a></li>
+            <li class="no3"><a href="#">Analysis</a></li>
+            <li class="no4"><a href="#">Analysis</a></li>
+            <li class="no5 active"><a href="#">Analysis</a></li>            
+            </ul>
+            </div>
+            </li>
+                        
+          </ul>
+        </div>
+      </div> 
+      <div class="innerContainer">
+      <div class="siteDescription" data-name="DivMessage">          
+          <p class="SuccessMsg">Success Message, Error Message and site label message will come here</p>
+        </div>
+      <hr />
+        
+        <div class="leftside" data-id="leftSide">
+        <div id="accord" data-id="DivAccord">
+        <div id="up"><img src="images/arrow_upscroll.gif" /></div>
+        <div class="ScrollContent" id="scrollTo">
+          <ul class="navside">
+            <li><span><a href="" >Properties</a></span></li>
+            <li><span class="hideHover"><a href="" class="activetab">Parent</a></span>   </li>            
+            <li><span><a href="" id="id">Child 1</a></span></li>
+            <li><span><a href="">Child 2</a></span></li>
+            <li><span><a href="">Child 3</a></span></li>
+            <li><span><a href="">Child 4</a></span></li>   
+            <li><span><a href="" id="id">Child 1</a></span></li>
+            <li><span><a href="">Child 2</a></span></li>
+            
+          </ul>
+          </div>
+          <div id="down"><img src="images/arrow_downscroll.gif" /></div>
+          </div>
+          <div class="notesWrapper" id="div1" data-name="notes">
+                    <a id="lnkbtnNotes" cssclass="notesBtn">Notes</a>
+                </div>
+        </div>
+        <div class="right-content" data-id="rightSide">
+          <div class="subInnerContainer">
+            <div class="formWraper" ng-controller = "handleControl">            
+            	<div server-control name="Acquire"></div>
+              <!--AcquireData-->
+            </div>
+            <span class="clear"></span> </div>
+            <div data-name="SubInnerFooter">
+            <div class="sub_inner_foot" style="display:block">
+            <dl class="right_btn_wrap">
+				<dd><label class="button gray"><input type="button"  value="Save" id="savebtn" class="btns save"/></label> </dd>
+				<dd><label class="button gray"><input type="reset"  value="Cancel" class="btns cancel"/></label> </dd>
+				</dl>
+                <span class="clear"></span>
+            </div>
+            </div>
+        </div>        
+      </div>
+      <div class="inner_foot" data-name="innerFooter">
+        <dl class="right_btn_wrap">
+            <dd> <input type="button" class="black button" value="Back" /> </dd>
+				<dd><input type="reset" class="disableBtn button" value="Execute" /> </dd>
+                <dd><input type="button" class="disableBtn button" value="Next" /> </dd>
+				<dd><input type="reset" class="black button" value="Finish" /> </dd>
+            </dl>
+            <div class="clear"></div>
+		</div>
+      <!--mid-content--> 
+      <span class="clear"></span> </div>
+    <!--contentContainer--> 
+    <span class="clear"></span> </div>
+  <span class="clear"></span>
+  <div id="footer" data-name="footer">
+    <div class="black_footer">
+      <div class="footer_wrapper">
+        <p class="DMfooter_text"> Copyright &copy;  GroupM 2013 All rights Reserved </p>
+        <p class="DMfooter_link"> <a href="/Home/TermsOfUse.aspx" target="_blank" title="Terms of use">Terms of use</a>&nbsp;|&nbsp; <a class="DMfooter_links" href="/Home/Privacy_Policy.aspx" target="_blank" title="Privacy Policy">Privacy Policy</a> </p>
+        <div class="clear"> </div>
+      </div>
+    </div>
+    <span class="clear"></span> </div>
+</div>
+<script src="js/angular.min.js" type="text/javascript"></script>
+<script src="js/angular-route.min.js" type="text/javascript"></script>
+<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script> 
+<script src="js/app.js" type="text/javascript"></script>
+
+</body>
+</html>

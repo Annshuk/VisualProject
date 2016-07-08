@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>DataMart</title>
+    <link href="styles/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/reset.css" rel="stylesheet" media="screen" />
+    <link href="styles/dm-style.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles/ui-grid.min.css" />
+    <link href="styles/jquery-ui.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="dm-wrapper">
+        <div class="loading window-center"><img src="images/icon-loading.gif" /></div>
+        <div class="wrapper">
+            <div class="contentContainer" ng-controller="statusControl">
+                <div class="header-top">
+                    <div class="notes">
+                        <div class="left">
+                            <h3>All Datamarts Datasource Status</h3>
+                            <span class="caption">This Page show the status of datasource reports</span>
+                        </div>
+                        <span class="clear"></span>
+                    </div>
+                    <div class="nav-top-wrap">
+
+                        <div class="SearchBar" style="margin-top: 3px;">
+                            <dl>
+                                <dd><span>DM Name:</span></dd>
+                                <dd>
+                                    <select style="width:120px" ng-model="showItem" ng-options="item.DM_Name for item in Columns | unique: 'DM_Name'" ng-change="DMChange(showItem)">
+                                        <option value="">All</option>
+                                    </select>
+                                </dd>
+                                <dd style="margin-left: 5px;"><span>Feed Type:</span></dd>
+                                <dd style="margin-right: 2px;">
+                                    <select style="width:200px" ng-model="showItem" ng-options="item.Name for item in feedItems track by item.id" ng-change="ChangeFeed(showItem)">
+                                        <option value="">All</option>
+                                    </select>
+                                </dd>
+                                <dd><span>Current Log:</span></dd>
+                                <dd> <select><option>1</option></select></dd>
+                                <dd style="margin-left: 5px;"><span>Start Date:</span></dd>
+                                <dd style="margin-right: 2px;">
+                                        <input type='text' ng-model="fromDate" id='startDatePicker' />
+                                </dd>
+                                <dd style="margin-left: 5px;"><span>End Date:</span></dd>
+                                <dd style="margin-right: 2px;">
+                                    <input type='text' ng-model="toDate" id='endDatePicker' />
+                                </dd>
+
+                            </dl>
+                        </div>
+                        <div class="RightBlock" style="margin-top: 3px;">
+                            <dl>
+                                <dd style="margin-left: 0">
+                                    <input type="text" id="searchBox" class="searchInput" tooltip="Search on DS Name" placeholder="Search..." ng-model="search" ng-change="onBlankSearch()" />
+                                </dd>
+                                <dd style="margin: 0px 0px 0px 5px">
+                                    <input id="btnSearch" type="button" class="button black" value="Search" ng-click="SearchChange()" />
+                                </dd>
+
+                            </dl>
+                        </div>
+                        <!--option side-->
+                    </div>
+                </div>
+                <div class="innerContainer">
+                    <div class="siteDescription">
+                        <p><pre>You are currently on page {{currentPage}}</pre></p>
+                    </div>
+
+                    <div id="grid" class="grid-table" ng-cloak=ng-cloak>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th><span style="font-weight:bold">Report Date</span></th>
+                                    <th ng-repeat="name in Columns | unique: 'DSID' |filter:searchQuery">
+                                        <span style="font-weight:bold">{{name["DataSourceName"]}}</span>
+                                    </th>
+
+                                </tr>
+                                <tr>
+                                    <th>&nbsp;</th>
+                                    <th ng-repeat="id in Columns | unique: 'DSID' | filter:searchQuery" ng-cloak=ng-cloak><span>DS{{id.DSID}}</span></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="date in DateList | unique: 'ReportDate'|  filter:searchQuery" ng-cloak=ng-cloak>
+
+                                    <td style="white-space:nowrap;">
+                                       <span style="font-weight:bold">{{date.ReportDate | dateFilter}}</span>                                      
+                                    </td>
+                                    <td ng-repeat="name in Columns | unique: 'DSID' |filter:searchQuery" ng-cloak=ng-cloak>                                        
+                                        <div ng-if="date.DSID == name.DSID">
+                                            <p ng-if="(date.AcquireStatus==='Null' || date.ExtractStatus==='Null' || date.TransformStatus==='Null')">
+                                                <span class="isError">{{date.MaxStep}}</span>
+                                            </p>
+                                            <span ng-if="date.MaxStep=='Not Processed'" class="isError">{{date.MaxStep}}</span>                                          <span class="isError" ng-if="date.AcquireStatus!='Success' && date.MaxStep!=='Not Processed'  && date.MaxStep=='Acquire'">
+                                                {{date.MaxStep}}
+                                            </span>
+                                            <span ng-if="date.ExtractStatus!='Success'  && date.MaxStep!=='Not Processed' && date.MaxStep=='Extract'" class="isError">{{date.MaxStep}}</span>
+
+                                            <span ng-if="date.TransformStatus!='Success'  && date.MaxStep!=='Not Processed'  && date.MaxStep=='Transform'" class="isError">{{date.MaxStep}}</span>
+
+
+
+
+                                            <!--    <span ng-if="date.AcquireStatus=='No Data Error'" title="Acquire" class="BlockInline"><img src="images/red_nodata.png" /></span>
+            </div>
+            <div ng-show="date.ExtractStatus!='NULL'">
+
+                <span ng-if="date.ExtractStatus=='Success'" title="Extract" class="BlockInline"><img src="images/green_success.png" /></span>
+                <span ng-if="date.ExtractStatus=='Error'" title="Extract" class="BlockInline"><img src="images/red_error.png" /></span>
+                <span ng-if="date.ExtractStatus=='Warning'" title="Extract" class="BlockInline"><img src="images/orange_warning.png" /></span>
+                <span ng-if="date.ExtractStatus=='No Data Error'" title="Extract" class="BlockInline"><img src="images/red_nodata.png" /></span>
+            </div>
+            <div ng-show="date.TransformStatus!='NULL'">
+
+                <span ng-if="date.TransformStatus=='Success'" class="BlockInline" title="Transform"><img src="images/green_success.png" /></span>
+                <span ng-if="date.TransformStatus=='Error'" class="BlockInline" title="Transform"><img src="images/red_error.png" /></span>
+                <span ng-if="date.TransformStatus=='Warning'" class="BlockInline" title="Transform"><img src="images/orange_warning.png" /></span>
+                <span ng-if="date.TransformStatus=='No Data Error'" class="BlockInline" title="Transform"><img src="images/red_nodata.png" /></span>
+            </div>-->
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="PaginationTable">
+                        <div class="viewBy">
+                            View  <select ng-model="itemsPerPage" ng-change="perPage()" ng-options="size for size in pageSizes"> Items Per page.</select>
+                        </div>
+                        <div class="pagination">
+                            <pagination ng-model="currentPage"
+                                        total-items="totalItems"
+                                        items-per-page="itemsPerPage"
+                                        max-size="maxSize"
+                                        num-pages="noOfPage"
+                                        boundary-links="true"
+                                        rotate="false">
+                            </pagination>
+                        </div>
+                    </div>
+
+
+
+
+                    <span class="clear"></span>
+                </div>
+                <!--mid-content-->
+                <span class="clear"></span>
+            </div>
+            <!--contentContainer-->
+            <span class="clear"></span>
+        </div>
+        <span class="clear"></span>
+        <div id="footer">
+            <div class="black_footer">
+                <div class="footer_wrapper">
+                    <p class="DMfooter_text"> Copyright &copy;  GroupM 2013 All rights Reserved </p>
+                    <p class="DMfooter_link"> <a href="/Home/TermsOfUse.aspx" target="_blank" title="Terms of use">Terms of use</a>&nbsp;|&nbsp; <a class="DMfooter_links" href="/Home/Privacy_Policy.aspx" target="_blank" title="Privacy Policy">Privacy Policy</a> </p>
+                    <div class="clear"> </div>
+                </div>
+            </div>
+            <span class="clear"></span>
+        </div>
+    </div>
+    <script src="js/angular.min.js" type="text/javascript"></script>
+    <script src="libs/bootstraps/js/ui-bootstrap-tpls-0.12.1.min.js"></script>
+    <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/service.js" type="text/javascript"></script>
+    <script src="js/dataSourceReport.js"></script>
+</body>
+</html>
